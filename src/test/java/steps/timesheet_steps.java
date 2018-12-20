@@ -177,7 +177,7 @@ public class timesheet_steps {
 	@Given("^User fill project hours details$")
 	public void user_fill_project_hours_detail(DataTable dataTable) throws Exception {
 
-		// get the credentials data from scenario
+		// get the data from scenario
 		List<List<String>> data = dataTable.raw();
 				
 		String projectNumber = data.get(1).get(0);

@@ -12,7 +12,7 @@ import com.google.common.base.Function;
 
 public final class Wrappers {
 	
-	public static int IMPLICIT_WAIT = 15;
+	public static int IMPLICIT_WAIT = 25;
 	public static int EXPLICIT_WAIT = 15;
 	public static int PAGE_LOAD_WAIT = 120;
 	public static int JS_WAIT = 15;
